@@ -1,4 +1,13 @@
-shadow-loading-bar
-==================
+# Simple-loading-bar
 
-A loading bar bind on dom, using Shadow Dom
+Simle loading bar bind on dom.
+
+## Usage
+
+```javascript
+var bar = new SimpleLoadingBar(document.querySelector('#main'));
+ bar.start();
+ setTimeout(function() {
+     bar.complete();
+ }, 3000);
+```

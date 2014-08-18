@@ -1,0 +1,28 @@
+<style>
+#main {
+     width: 400px;
+     height: 300px;
+     margin-left: -200px;
+     margin-top: -150px;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     background: #ccc;
+ }
+ .loading-bar {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 3px;
+     background: #e55;
+ }
+</style>
+<div id="main"></div>
+<script src="../simple-loading-bar.js"></script>
+<script>
+ var bar = new SimpleLoadingBar(document.querySelector('#main'));
+ bar.start();
+ setTimeout(function() {
+     bar.complete();
+ }, 3000);
+</script>
