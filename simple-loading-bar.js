@@ -1,7 +1,7 @@
 window.SimpleLoadingBar = function(container, opts) {
     var speed = (opts && opts.speed) || 0.01; // 10% per second
     var bar = document.createElement('div');
-    bar.className = "loading-bar";
+    bar.className = "simple-loading-bar";
 
     var progress = 0;
     var iter = function() {
