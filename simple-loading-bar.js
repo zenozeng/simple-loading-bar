@@ -10,7 +10,7 @@ window.SimpleLoadingBar = function(container, opts) {
             progress += speed / 50;
             setTimeout(iter, 20);
         } else {
-            bar.style.width = 0;
+            bar.remove();
         }
     }
     
