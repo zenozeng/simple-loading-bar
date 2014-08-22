@@ -1,6 +1,6 @@
 # Simple-loading-bar
 
-Simle loading bar bind on dom.
+Simple loading bar bind on dom.
 
 ## Demo
 
